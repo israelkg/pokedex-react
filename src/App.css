@@ -1,0 +1,33 @@
+@import "tailwindcss";
+@tailwind utilities;
+
+html, body, #root {
+    min-height: 100%;
+  }
+
+/* SCROLLBAR PÁGINA */
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+::-webkit-scrollbar-thumb {
+    background: #d4b94e; 
+    border-radius: 10px;
+}
+
+    
+/* SCROLLBAR GOLPES */
+.scrollbar-custom::-webkit-scrollbar {
+    width: 15px; 
+    height: 100%;
+} 
+.scrollbar-custom::-webkit-scrollbar-track {
+    background-color: #d8c783;
+    margin: 20px;
+}
+.scrollbar-custom::-webkit-scrollbar-thumb {
+    background: #0a0a0a;
+    border-radius: 8px;
+}
