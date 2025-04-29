@@ -1,12 +1,61 @@
-# React + Vite
+# 🧩 Pokedex React - Explorador de Pokémons com API
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📚 Índice
+- 📄 Descrição
+- ✨ Funcionalidades
+- ⚙️ Tecnologias Usadas
+- 📌 Pré-requisitos
+- 🚀 Como Usar
+- 📷 Capturas de Tela
+- 🤝 Contribuição
+- 📦 Instalação
 
-Currently, two official plugins are available:
+## 📄 Descrição
+Este projeto é uma Pokédex interativa desenvolvida com React, utilizando a PokeAPI para fornecer dados completos dos Pokémons.
+Com uma interface amigável e responsiva, o usuário pode buscar, filtrar por tipo e explorar informações detalhadas de cada Pokémon em páginas separadas.
+Ideal para fins de aprendizado, prática com consumo de API REST, uso de React Router, controle de estado e estilização com TailwindCSS.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Funcionalidades
+- 🔎 Buscar pokemons pelo nome.
+- 🧪 Filtro por tipo de Pokémon.
+- 🧾 Cards com dados básicos.
+- 🔁 Navegação fluida entre páginas com botões de retorno.
+- 👤 Pagina detalhada de pokemon:
+  - Nome
+  - Tipo
+  - Habilidades
+  - Golpes
+  - Altura
+  - Peso
+  - Numeração
 
-## Expanding the ESLint configuration
+## ⚙️ Tecnologias Usadas
+- **React**:
+- **TailwindCSS**:
+- **Axios**:
+- **Hooks**: useState, useEffect, useNavigate, useParams
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📌 Pré-requisitos
+- Node.js instalado.
+- Navegador web moderno (Chrome, Firefox, etc.).
+- Conexão à internet.
+
+## 🚀 Como Usar
+- Acesse o projeto online:  
+  [https://israelkg.github.io/pokedex-react/](https://israelkg.github.io/pokedex-react/)
+- Ou abra o arquivo `index.html` em seu navegador após a instalação local
+
+## 🤝 Contribuição
+Contribuições são super bem-vindas!  
+Abra uma *issue* com sugestões ou envie um *Pull Request* com melhorias. ✨
+
+## 📦 Instalação
+1. Clone o repositório:
+    ```bash
+    git clone https://github.com/israelkg/pokedex-react.git
+    ```
+2. Navegue até o diretório do projeto:
+    ```bash
+    cd pokedex-react
+    ```
+3. Abra o arquivo `index.html` em seu navegador preferido
