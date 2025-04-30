@@ -45,6 +45,12 @@ Ideal para fins de aprendizado, prática com consumo de API REST, uso de React R
   [https://israelkg.github.io/pokedex-react/](https://israelkg.github.io/pokedex-react/)
 - Ou abra o arquivo `index.html` em seu navegador após a instalação local
 
+## 📷 Capturas de Tela
+- ![Utilização do filtro](./src/gifs/filtro.gif)
+- ![Utilização da barra de pesquisa](./src/gifs/pesquisa.gif)
+- ![Utilização de botão interativo](./src/gifs/carregarmais.gif)
+- ![Card do Pokemon](./src/gifs/card.gif)
+
 ## 🤝 Contribuição
 Contribuições são super bem-vindas!  
 Abra uma *issue* com sugestões ou envie um *Pull Request* com melhorias. ✨
